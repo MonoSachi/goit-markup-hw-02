@@ -13,7 +13,7 @@ ol {
     list-style-type: none;
 }
 
-.logo {
+.logo-web-studio {
     color: var(--iris, #4D5AE5);
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -49,9 +49,21 @@ ol {
     letter-spacing: 0.32px;
 }
 
-.menu-item {}
+.menu-item {
+    color: #2e2f42;
+}
 
-.contacts {
+.menu-item:hover {
+    color: #404bbf;
+}
+
+.menu-item:focus {
+    color: #404bbf;
+}
+
+
+
+.contacts-mail-tel {
     color: var(--slate, #434455);
     /* Body */
     font-family: Roboto;
@@ -61,6 +73,18 @@ ol {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.32px;
+}
+
+.color-contact {
+    color: #434455;
+}
+
+.color-contact:hover {
+    color: #404bbf;
+}
+
+.color-contact:focus {
+    color: #404bbf;
 }
 
 .effective-button {
