@@ -37,7 +37,7 @@ ol {
     text-transform: uppercase;
 }
 
-.menu {
+.menu-link {
     color: var(--navyblue, #2E2F42);
     /* Body Medium */
     font-family: Roboto;
@@ -48,6 +48,8 @@ ol {
     /* 150% */
     letter-spacing: 0.32px;
 }
+
+.menu-item {}
 
 .contacts {
     color: var(--slate, #434455);
