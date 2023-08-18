@@ -6,7 +6,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
-
 }
 
 ul,
@@ -16,11 +15,11 @@ ol {
 
 .logo {
     color: var(--iris, #4D5AE5);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -29,11 +28,11 @@ ol {
 .title-studio {
     width: 71px;
     color: var(--navyblue, #2E2F42);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17x;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -76,15 +75,30 @@ ol {
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     /* 107.143% */
     letter-spacing: 1.12px;
 }
 
 .button {
+    cursor: pointer;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     padding: 16px 32px;
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
 }
 
 .order-button {
@@ -208,11 +222,11 @@ ol {
 
 .logo-down {
     color: var(--iris, #4D5AE5);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
@@ -220,11 +234,11 @@ ol {
 
 .title-studio-down {
     color: var(--cloud, #F4F4FD);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
