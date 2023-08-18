@@ -37,7 +37,7 @@ ol {
     text-transform: uppercase;
 }
 
-.menu-link-li {
+.menu-list {
     color: var(--navyblue, #2E2F42);
     /* Body Medium */
     font-family: Roboto;
