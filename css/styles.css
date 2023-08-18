@@ -13,7 +13,7 @@ ol {
     list-style-type: none;
 }
 
-.logo-web-studio {
+.logo-web {
     color: var(--iris, #4D5AE5);
     font-family: Raleway, sans-serif;
     font-size: 18px;
@@ -37,7 +37,7 @@ ol {
     text-transform: uppercase;
 }
 
-.menu-link {
+.menu-link-li {
     color: var(--navyblue, #2E2F42);
     /* Body Medium */
     font-family: Roboto;
@@ -49,15 +49,15 @@ ol {
     letter-spacing: 0.32px;
 }
 
-.menu-item {
+.menu-item-li {
     color: #2e2f42;
 }
 
-.menu-item:hover {
+.menu-item-li:hover {
     color: #404bbf;
 }
 
-.menu-item:focus {
+.menu-item-li:focus {
     color: #404bbf;
 }
 
@@ -75,15 +75,15 @@ ol {
     letter-spacing: 0.32px;
 }
 
-.color-contact {
+.color-contact-ff {
     color: #434455;
 }
 
-.color-contact:hover {
+.hover-focus:hover {
     color: #404bbf;
 }
 
-.color-contact:focus {
+.hover-focus:focus {
     color: #404bbf;
 }
 
