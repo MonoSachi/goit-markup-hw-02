@@ -49,15 +49,15 @@ ol {
     letter-spacing: 0.32px;
 }
 
-.menu-item-li {
+.menu-link {
     color: #2e2f42;
 }
 
-.menu-item-li:hover {
+.menu-link:hover {
     color: #404bbf;
 }
 
-.menu-item-li:focus {
+.menu-linki:focus {
     color: #404bbf;
 }
 
