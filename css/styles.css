@@ -57,6 +57,8 @@ ol {
 
 .contacts-mail-tel {
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .contacts-link {
